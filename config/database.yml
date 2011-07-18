@@ -1,0 +1,26 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: bands_development
+  pool: 5
+  username: root
+  password: root
+
+test:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: bands_test
+  pool: 5
+  username: root
+  password: root
+
+production:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: bands_production
+  pool: 5
+  username: root
+  password: root
